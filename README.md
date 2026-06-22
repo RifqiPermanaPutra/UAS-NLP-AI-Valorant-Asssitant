@@ -48,6 +48,10 @@ Proyek ini tidak menggunakan arsitektur RAG konvensional, melainkan mengusung in
 
 ---
 
+## 🧠 Model AI yang Digunakan
+Proyek ini ditenagai oleh model bahasa mutakhir dari **NVIDIA** (NVIDIA NIM), yaitu **Llama-3.3-Nemotron-Super-49B**. Model ini dipilih karena memiliki kecepatan inferensi yang sangat tinggi dan kemampuan nalar yang luar biasa untuk memahami konteks spesifik seperti game Valorant dalam arsitektur Multi-RAG.
+
+---
 ## 📚 Library NLP Wajib yang Digunakan
 Sesuai dengan kriteria tugas, proyek ini mengimplementasikan:
 - **[LangChain]**: Bertugas untuk proses *Data Ingestion* (menggunakan `PyPDFLoader`, `RecursiveCharacterTextSplitter`) dan *Retrieval* dari *HuggingFaceEmbeddings*.
