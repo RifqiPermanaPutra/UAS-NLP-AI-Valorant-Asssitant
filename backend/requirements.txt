@@ -13,3 +13,4 @@ sentence-transformers
 pandas
 openpyxl
 pypdf
+python-dotenv

@@ -58,16 +58,24 @@ Sesuai dengan kriteria tugas, proyek ini mengimplementasikan:
 
 ## 🚀 Cara Menjalankan Program (Localhost)
 
-1️⃣ Menjalankan Backend (FastAPI)
+1️⃣ Persiapan Lingkungan & Backend (FastAPI)
 Buka Terminal pertama, lalu jalankan perintah berikut:
 ```bash
 # 1. Masuk ke direktori utama
 cd D:\VLR
 
-# 2. Aktifkan Virtual Environment
+# 2. Aktifkan Virtual Environment (jika ada)
 .\venv\Scripts\activate
 
-# 3. Jalankan server FastAPI
+# 3. Instal dependensi backend
+pip install -r backend/requirements.txt
+
+# 4. Konfigurasi API Keys
+# - Buka folder backend
+# - Duplikat file .env.example dan ubah namanya menjadi .env
+# - Isi LANGCHAIN_API_KEY dan NVIDIA_API_KEY di dalam file .env tersebut
+
+# 5. Jalankan server FastAPI
 python -m backend.main
 
 2️⃣ Menjalankan Frontend (Next.js)

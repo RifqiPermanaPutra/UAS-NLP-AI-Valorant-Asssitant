@@ -1,5 +1,8 @@
 import os
+from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
+
+load_dotenv()
 
 os.environ["LANGCHAIN_TRACING_V2"] = "true"
 os.environ["LANGCHAIN_ENDPOINT"] = "https://api.smith.langchain.com"
